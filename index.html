@@ -1,0 +1,64 @@
+<!-- Sean Diaz sean_diaz@student.uml.edu 
+5/18/2024
+File: index.html 
+GUI Assignment:  Creating Your First Web Page 
+short webpage about my babies and why they are so fat, with table of their consumption and weight. The design of the code 
+focuses heavily on using Div tags to make styling seperate and easier to manage. 
+-->
+<!DOCTYPE html> <!-- tells the browser the doc is written in html5-->
+<html lang="en"> <!--the html tag wraps all the content in the document, the lang = "en" attribute specifies the language-->
+    <head> <!--I like to think of this like a container that stores the background stuff you dont necessarily see, connect-->
+    <meta charset="utf-8">
+    <title>For the Love of Cats</title> <!-- title of webpage in browser. Remember when using title tags-->
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>MY CATS!</h1>
+        <div class="Cheddar"> <!--I like to think of divs as like little containers to put CSS in, like organizers-->
+            <h1>Cheddar!</h1> <!-- h1 is like the big letters that grab the readers attention to a new topic-->
+            <p>This is my baby boy! Cheddar! He is orange, and a little chubby but regardless, he can take a pet no problem</p>
+            <img src="images/IMG_0980.jpg" width="500" height = "500"> <!--self closing dont forget-->
+        </div>
+        <div>
+            <h1 class="Diego">Diego!</h1>
+            <p>This is my first born baby! His name is Diego, now he is REALLY chubby, we feed him a little too much...which is our fault considering when he cries we can't help it. He is almost 5 years old in June</p>
+            <img src="images/IMG_5261.jpg" width="500" height = "400"> <!--self closing dont forget-->
+        </div>
+        <div class="Mochi">
+            <h1>Mochi!</h1>
+            <p>This is my second baby! His name is Mochi, he is super skinny and has a super fluffy coat. He is about 3 years old and is very standoff-ish</p>
+            <img src="images/IMG_7399.jpg" width="500" height = "500"> <!--self closing dont forget-->
+        </div>
+        <div class="Facts"> <!--I always dont know if im making too many divs I dont want to overcrowd if unneccessary-->
+            <h2>Some facts about my cats!</h2> <!--slightly smaller than an h1!-->
+            <table> 
+                <tr>
+                    <th>Cat</th>
+                    <th>Consumption</th>
+                    <th>Weight</th>
+                </tr>
+                <tr>
+                    <td>Cheddar</td>
+                    <td>Medium</td>
+                    <td>Chunky</td>
+                </tr>
+                <tr>
+                    <td>Diego</td>
+                    <td>Large</td>
+                    <td>HUGE</td>
+                </tr>
+                <tr>
+                    <td>Mochi</td>
+                    <td>Moderate</td>
+                    <td>Skinny</td>
+                </tr>
+            </table>
+        </div>
+        <h2>Additional links</h2>
+        <p>here is some information on how you can properly diet your cats!</p>
+        <div class="Links">
+            <a href="https://vcahospitals.com/know-your-pet/creating-a-weight-reduction-plan-for-cats">vcahospitals</a>
+            <a href="https://www.petobesityprevention.org/weight-loss-cats">petobesityprevention</a>
+        </div>
+    </body>
+</html>
